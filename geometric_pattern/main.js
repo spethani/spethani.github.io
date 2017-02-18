@@ -11,8 +11,8 @@ function setup() {
 }
 function draw() {
     rVal=255;
-    gVal=0;
-    bVal=0;
+    gVal=76;
+    bVal=255;
     var isShifted=false;
     var y=height;
     while(y>=0) {
@@ -32,8 +32,8 @@ function draw() {
     y=y-circleRadius;
     isShifted = !isShifted;
     
-    rVal=rVal-2;
-    gVal=gVal+7;
+    rVal=rVal-5;
+    gVal=gVal+5;
     bVal=bVal+3;
     }
 }
