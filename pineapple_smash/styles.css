@@ -1,0 +1,92 @@
+html{
+  background-color:#FFF2DD;
+  }
+
+#pineapple{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 0px !important;
+  outline: 0 !important;
+  margin-left:-15%;
+}
+
+#title {
+  font-family: Lucida Sans Unicode;
+  font-size: 545%;
+  left: 50%;
+  -webkit-text-fill-color: #CBEAA8;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #666;
+  margin-left: 5%;
+}
+
+#score {
+  font-family: Lucida Sans Unicode;
+  font-size: 245%;
+  left: 50%;
+  -webkit-text-fill-color: #CBEAA8;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #666;
+  margin-left: 5%;
+  float: left;
+}
+
+#rubberbandlevel, #ramnek{
+  font-family: Lucida Sans Unicode;
+  font-size: 145%;
+  -webkit-text-fill-color: #666;
+  margin-left: 65%;
+}
+
+#rubberbandlevel {
+  margin-top:-20%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #CBEAA8;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: 115;
+  margin:-10;
+}
+
+.rubberbanda, .ramneka {
+  float: left;
+  display: block;
+  color: #E6CF71;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #D5BE5F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 65px;
+  font-family: Arial;
+  height: 26;
+  margin-left:10%;
+}
+
+#boost {
+  float: right;
+  margin-right:10%;
+  margin-top:-10%;
+  border: 0px !important;
+  outline: 0 !important;
+  //TO SHOW COOLDOWN IS NOT OVER!!! filter: grayscale(100%);
+}
+
+#howBoost {
+  font-family: Lucida Sans Unicode;
+  font-size: 200%;
+  left: 50%;
+  -webkit-text-fill-color: #00A0E8;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #666;
+  margin-left: 5%;
+  margin-top:20%;
+}
